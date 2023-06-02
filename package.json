@@ -1,0 +1,20 @@
+{
+  "name": "phorest-test",
+  "version": "1.0.0",
+  "description": "e2e test for purchasing vouchers",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
+  }
+}
